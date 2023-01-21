@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "segoe ui", sans-serif;
+  font-family: "rubik", "segoe ui", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -26,7 +26,7 @@ body {
   margin: 0 auto;
   display: grid;
   align-items: center;
-  gap: 9`.6rem;
+  gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
 
 }
@@ -53,6 +53,7 @@ body {
   border-radius: 9px;
   text-decoration: none;
   transition: all 0.3s;
+  font-weight: 600;
 }
 
 .btn--full:link,
@@ -92,4 +93,34 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 
+}
+
+.delivered-meals {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 8rem;
+  gap: 1.6rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border: 3px solid #fef2e9;
+  border-radius: 50%;
+  margin-left: -1.6rem;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-meals span {
+  color: #cf711f;
+  font-weight: 700;
 }
