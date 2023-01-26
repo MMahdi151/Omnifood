@@ -147,6 +147,10 @@ body {
   margin-bottom: 4.8rem !important;
 }
 
+.center-text {
+  text-align: center;
+}
+
 /* **************** */
 /* HEADER********** */
 /* **************** */
