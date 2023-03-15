@@ -25,6 +25,13 @@ body {
   padding: 0 3.2rem;
 }
 
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 .grid {
   display: grid;
   gap: 9.6rem;
@@ -705,6 +712,11 @@ body {
   padding: 1.2rem;
 }
 
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .cta-form input,
 .cta-form select {
   width: 100%;
@@ -720,4 +732,8 @@ body {
 
 .cta-form input::placeholder {
   color: #aaa;
+}
+
+.cta *:focus {
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
