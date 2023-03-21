@@ -34,7 +34,7 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
   column-gap: 6.4rem;
   /* margin-bottom: 9.6rem; */
 }
@@ -215,7 +215,7 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
