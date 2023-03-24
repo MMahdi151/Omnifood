@@ -44,6 +44,9 @@ allLinks.forEach(function (link) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
+    // Close mobile-nav
+    if (link.classList.contains('main-nav-list'))
+      headerEl.classList.toggle("nav-open");
   });
 });
 
