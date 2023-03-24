@@ -39,6 +39,11 @@ allLinks.forEach(function (link) {
         top: 0,
         behavior: "smooth",
       });
+    // Scroll to SECTIONS
+    if (href !== "#" && href.startsWith('#')) {
+      const sectionEl = document.querySelector(href);
+      sectionEl.scrollIntoView({ behavior: "smooth" });
+    }
   });
 });
 
