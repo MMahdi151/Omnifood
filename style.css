@@ -844,7 +844,7 @@ body {
 }
 
 /* STICKY_NAV */
-.sticky {
+.sticky .header {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -855,4 +855,8 @@ body {
   background-color: rgba(255, 255, 255, 0.97);
   z-index: 1000;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 8.6rem;
 }
